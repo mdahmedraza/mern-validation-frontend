@@ -1,0 +1,58 @@
+.parent{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    Z-index: 10;
+    background: rgba(0, 0, 0, 0.75)
+}
+.child{
+    position: fixed;
+    top: 30vh;
+    left: 10%;
+    width: 80%;
+    z-index: 100;
+    overflow: hidden;
+    background-color: cornsilk;
+    border-radius: 10px;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.child header{
+    color: crimson;
+}
+.child main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+.child main h3{
+    font: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color:darkviolet;
+}
+.child main span{
+    font-size: 1.5rem;
+    color:crimson;
+}
+.child footer{
+    display: flex;
+    justify-content:center;
+    
+}
+.child footer button{
+    padding: 1rem 2rem;
+    font-weight: 600;
+    font-size: large;
+    border: 1px solid crimson;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+    margin-top: 3rem;
+}

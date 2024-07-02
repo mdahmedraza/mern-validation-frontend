@@ -1,0 +1,12 @@
+.container{
+    max-width: 28rem;
+    width: 90%;
+    background: white;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 10px;
+}

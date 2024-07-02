@@ -1,0 +1,21 @@
+.user_detail{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0.1rem;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 90%;
+}
+@media(max-width:768px){
+    .user_detail{
+        flex-direction: column;
+    }
+    .user_detail h3{
+        font-size: 2rem;
+    }
+    .user_detail label{
+        font-size: 2rem;
+    }
+}

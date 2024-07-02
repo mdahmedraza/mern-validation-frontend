@@ -1,0 +1,56 @@
+.input_section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.input_section label{
+    font-size: 1rem;
+    font-weight: 600;
+    width: 12rem;
+    color: blueviolet;
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 20px;
+    flex: 1;
+    margin-right: 2rem;
+}
+.input_section input{
+    flex: 2;
+    width: 100%;
+    padding:0.5rem;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.button button{
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: blueviolet;
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+@media(max-width:768px){
+    .input_section{
+        flex-direction: column;
+        justify-content: center;
+        border: 1px solid black;
+        padding: 0.2rem;
+        border-radius: 10px;
+    }
+    .input_section input{
+        width: 20rem;
+        font-size: 2rem;
+       
+    }
+    .input_section label{
+        width: 20rem;
+        margin-bottom: 0.2rem;
+        margin-right: 0;
+        font-size: 2rem;
+    }
+    .button button{
+        font-size: 2rem;
+    }
+}
